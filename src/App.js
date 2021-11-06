@@ -5,6 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import Home from './Components/Pages/Home/Home/Home';
+import Appointment from './Components/Pages/Appointment/Appointment/Appointment';
 
 
 function App() {
@@ -12,10 +13,10 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/about">
-            <Home />
+          <Route path="/appointment">
+            <Appointment />
           </Route>
-          <Route path="/users">
+          <Route path="/Home">
             <Home />
           </Route>
           <Route path="/">

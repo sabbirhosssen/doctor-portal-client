@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../../Navigation/Header';
+import Header from '../../../Shared/Navigation/Header';
 import AppointmentBannar from '../AppointmentBannar/AppointmentBannar';
 import Bannar from '../Bannar/Bannar';
 
